@@ -33,7 +33,7 @@ Built-in Syntax
 
 
 
-"Don't Forget to rename the image  (Used image) to (gradient)"
+"Don't Forget to rename the image and type the correct path of it.
 
 Best wishes
 
