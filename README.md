@@ -1,5 +1,8 @@
 # Image-Processing-Segmentation-Global-Threshold-filters-
 
+
+
+
 IN GLOBAL THRESHOLD
 There are 5 techniques
     **1)Binary threshold
