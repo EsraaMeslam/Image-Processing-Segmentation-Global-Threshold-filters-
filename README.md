@@ -1,26 +1,27 @@
 # Image-Processing-Segmentation-Global-Threshold-filters-
 
-IN GLOBAL THRESHOULD
-There is 5 techinques
-1)Binary threshold
-2)inverse Binary thershould
-3)Trunk thershould
-4)To Zero thershould
-5)Inverse To Zero thershould
+IN GLOBAL THRESHOLD
+There are 5 techniques
+    **1)Binary threshold
+    2) Inverse binary threshold
+    3)Trunk threshold
+    4)To Zero threshold
+    5)Inverse To Zero threshold**
 
 
-THRESH_BINARY: If pixel intensity is greater than the set threshold, value set to 255, else set to 0 (black).
-THRESH_BINARY_INV: Inverted or Opposite case of cv2.THRESH_BINARY.
-THRESH_TRUNC: If pixel intensity value is greater than threshold, it is truncated to the threshold. All other values remain the same.
-THRESH_TOZERO: Pixel intensity is set to 0, for all the pixels intensity, less than the threshold value.
-THRESH_TOZERO_INV: Inverted or Opposite case of cv2.THRESH_TOZERO.
+**THRESH_BINARY: If the pixel is greater than the threshold, the value is set to 255 (white), else set to 0 (black).
+THRESH_BINARY_INV: If the pixel is greater than the threshold, the value is set to 0 (black), else set to 255 (white).
+THRESH_TRUNC: If the pixel is greater than the threshold, the value is set to the threshold, All other values remain the same.
+THRESH_TOZERO:  If the pixel is less than the threshold, the value is set to 0 (black), All other values remain the same.
+THRESH_TOZERO_INV:  If the pixel is greater than the threshold, the value is set to 255 (white), All other values remain the same.**
 
 
-Built in Syntax
-threshold(source, thresholdValue, maxVal, thresholdingTechnique) 
+Built-in Syntax
+threshold(source, threshold value, maxVal, thresholding technique) 
 -> source: Input Image array (must be in Grayscale). 
 -> thresholdValue: Value of Threshold below and above which pixel values will change accordingly.
--> maxVal: Maximum value that can be assigned to a pixel. -> thresholdingTechnique: The type of thresholding to be applied. 
+-> maximal: Maximum value that can be assigned to a pixel.
+-> thresholding technique: The type of thresholding to be applied. 
 ->mentioned above 
 
 
